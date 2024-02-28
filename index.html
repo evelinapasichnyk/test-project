@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Homework Pasichnyk Evelina</title>
+</head>
+<body>
+    <script>
+
+
+        const actionAdd = confirm('Ви хочете зробити додавання?');
+        if (actionAdd === true) {
+            let firstNumber = parseFloat(prompt('Введіть перше число', 9));
+            let secondNumber = parseFloat(prompt('Введіть друге число', 9));
+            let resultOfAdd = firstNumber + secondNumber;
+            let message = `${firstNumber} + ${secondNumber} = ${resultOfAdd}`;
+            alert(message);
+        };
+
+
+        const actionSub = confirm('Ви хочете зробити віднімання?');
+        if (actionSub === true) {
+            let firstNumber = parseFloat(prompt('Введіть перше число', 9));
+            let secondNumber = parseFloat(prompt('Введіть друге число', 9));
+            let resultOfSub = firstNumber - secondNumber;
+            let message = `${firstNumber} - ${secondNumber} = ${resultOfSub}`;
+            alert(message);
+        };
+
+
+        const actionMult = confirm('Ви хочете зробити множення?');
+        if (actionMult === true) {
+            let firstNumber = parseFloat(prompt('Введіть перше число', 9));
+            let secondNumber = parseFloat(prompt('Введіть друге число', 9));
+            let resultOfMult = firstNumber * secondNumber;
+            let message = `${firstNumber} * ${secondNumber} = ${resultOfMult}`;
+            alert(message);
+        };
+
+
+        const actionDiv = confirm('Ви хочете зробити ділення?');
+        if (actionDiv === true) {
+            let firstNumber = parseFloat(prompt('Введіть перше число', 9));
+            let secondNumber = parseFloat(prompt('Введіть друге число', 9));
+            let resultOfDiv = firstNumber / secondNumber;
+            let message = `${firstNumber} / ${secondNumber} = ${resultOfDiv}`;
+            alert(message);
+        };
+
+
+    </script>
+</body>
+</html>
